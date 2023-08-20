@@ -182,7 +182,7 @@ http://localhost:4000/asteroids/feed?start_date=2015-09-07&end_date=2015-09-08
 }
 ```
 
-<h3>Get Asteroid based on its id.</h3>
+<h3>Get Asteroid based on its id</h3>
 
 <p>Path parameters</p>
 <table>
