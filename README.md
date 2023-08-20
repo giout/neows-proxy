@@ -35,12 +35,6 @@ npm i install
 npm run start
 ```
 
-<h2>Test</h2>
-
-```
-
-```
-
 <h2>API</h2>
 <p>Every functionality executes a GET request. Host will be 'localhost' and port will be '4000', assuming that this project will run locally.</p>
 <h3>Get Asteroids based on their closest approach date to Earth.</h3>
