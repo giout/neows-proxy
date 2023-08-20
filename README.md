@@ -1,7 +1,7 @@
 <h1>Neows proxy server</h1>
 <p>Web server that acts as a proxy server for Neows.</p>
 <p>Near Earth Objects Web Service is a RESTful web service that retrieves detailed information about near earth planet asteroids (documentation at https://api.nasa.gov/ in the "Browse APIs" section). This service requires an API key (obtained easily by submitting an email at the NASA api website). DEMO_KEY can be used as a temporary api key, it has a limit of 50 daily requests.</p>
-<p>The normal usage of Neows consists on the client introducing a key to obtain information. This project acts as an intermediary between the client and the Neows API. Client won't have to register its email and get an API key to obtain the NASA data. Also, its requests won't be registered at NASA server.</p>
+<p>The normal usage of Neows consists on the client introducing a key to obtain information. This project acts as an intermediary between the client and the Neows API. Client won't have to register its email and get an API key to obtain the NASA data. Also, its requests will be anonymous, every request will be executed with the proxy server IP and API key.</p>
 <p>The purpose of this project is didactic. No api key will be shared, for it goes against NASA policies.</p>
 
 <h2>Stack</h2>
