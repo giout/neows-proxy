@@ -10,12 +10,17 @@ const app = express()
 const PORT = process.env.PORT
 
 // middlewares
-app.use(cors())
+app.use(cors({
+    origin: '*',
+    methods: 'GET'
+}))
 app.use(express.json())
 app.use('/', router)
 
 findFreePort(process.env.PORT)
 .then(port => {
-    app.listen(port)
+    app.listen(port, () => {
+        console.log(`PORT = ${port}`)
+    })
 })
 
