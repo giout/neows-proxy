@@ -8,6 +8,7 @@
 <p>This project is developed in <b>Javascript</b>, running on <b>Node.js</b>. The web server is up and handled with <b>Express.js</b> and http requests were handled with <b>Axios</b>.</p>
 
 <h2>Installation</h2>
+<p>You must have Node.js installed on your computer.</p>
 
 ```
 npm i install 
